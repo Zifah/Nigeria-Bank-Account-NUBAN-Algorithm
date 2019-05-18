@@ -1,0 +1,20 @@
+{
+  "name": "nubanvalidator",
+  "version": "1.0.0",
+  "description": "Provides different utilities to validate a Nigerian bank account number",
+  "main": "index.js",
+  "dependencies": {
+    "restify": "^8.3.2",
+    "restify-errors": "^8.0.0",
+    "restify-plugins": "^1.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NUBAN"
+  ],
+  "author": "Hafiz Adewuyi",
+  "license": "ISC"
+}
