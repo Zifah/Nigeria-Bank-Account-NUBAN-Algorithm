@@ -49,7 +49,11 @@ module.exports = {
     let bank = banks.find(bank => bank.code == bankCode);
 
     if (!bank) {
-      return next(new NotFoundError("Not a valid bank code"));
+      return next(
+        new NotFoundError(
+          "We do not recognize this code as a Nigerian commercial bank code"
+        )
+      );
     }
 
     try {
