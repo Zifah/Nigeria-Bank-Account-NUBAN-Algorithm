@@ -5,8 +5,9 @@ This repo contains the algorithm for generating and validating a NUBAN (Nigeria 
 ## Setting up
 
 - Clone the repo.
-- Restore the packages which the application depends on using `npm install` from terminal.
-- With node installed, run `node index.js` from terminal.
+- Assuming node is installed on your computer:
+  - Restore the node packages which the application depends on using `npm install` from terminal.
+  - Run `node index.js` from terminal.
 
 ## Endpoints
 
