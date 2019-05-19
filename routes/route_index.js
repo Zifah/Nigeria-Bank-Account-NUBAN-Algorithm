@@ -5,7 +5,7 @@ module.exports = function(server) {
     res.send("Initial page here");
   });
 
-  server.get("/accounts/:account/banks", (req, res, next) => {
+  server.get("/accounts/:account(^\\d{10}$)/banks", (req, res, next) => {
     nubanUtil.getAccountBanks(req, res, next);
   });
 };
