@@ -9,11 +9,13 @@ This repo contains the algorithm for generating and validating a NUBAN (Nigeria 
   - Restore the node packages which the application depends on using `npm install` from terminal.
   - Run `node index.js` from terminal.
 
-## Endpoints
+## API Endpoints
 
 ### 1. **Get Account Banks**
 
-Given any 10-digit Nigerian bank account number, this endpoint returns a JSON array of banks where that account number could potentially be valid.
+Given any 10-digit Nigerian bank account number, this endpoint returns a JSON array of banks where that account number could be valid.
+
+A common application of this algorithm in Nigeria today is to cut down the list of banks on USSD interfaces from about 23 to less than 5 after the user enters their bank account number (NUBAN). This comes in handy because a USSD screen can display at most, 160 characters at a time.
 
 _Specification_
 
