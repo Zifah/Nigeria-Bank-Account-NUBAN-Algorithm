@@ -1,6 +1,6 @@
 # NUBAN (Nigerian Uniform Bank Account Number) Algorithm
 
-This repo contains the algorithm for generating and validating a NUBAN (Nigeria Uniform Bank Account Number) in Javascript. The algorithm is based on [this here CBN specification](https://www.cbn.gov.ng/OUT/2011/CIRCULARS/BSPD/NUBAN%20PROPOSALS%20V%200%204-%2003%2009%202010.PDF) for the 10-digit NUBAN. 10-digit is stated because CBN announced not too long ago that it's considering updating the specification for a NUBAN.
+This repo contains the algorithm for generating and validating a NUBAN (Nigeria Uniform Bank Account Number) in Javascript. The algorithm is based on [this here CBN specification](https://www.cbn.gov.ng/OUT/2011/CIRCULARS/BSPD/NUBAN%20PROPOSALS%20V%200%204-%2003%2009%202010.PDF) for the 10-digit NUBAN. 10-digit is stated because CBN announced not too long ago that it's considering updating the specification for a NUBAN; which might see the NUBAN getting up to 16-digits in length.
 
 ## Setting up
 
